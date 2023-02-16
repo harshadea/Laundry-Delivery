@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final GlobalKey<ScaffoldState> _homeScaffoldKey = GlobalKey<ScaffoldState>();
 
   /// Current status
-  HomeScreenStatus _currentHomeScreenStatus = HomeScreenStatus.offline;
+  final HomeScreenStatus _currentHomeScreenStatus = HomeScreenStatus.offline;
 
   /// Get bottom bar text
   String _getBottomButtonText() {
@@ -217,7 +217,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 '45',
                                 style: Theme.of(context)
                                     .textTheme
-                                    .button
+                                    .labelLarge
                                     ?.copyWith(fontWeight: FontWeight.bold),
                               ),
                               AppGaps.hGap4,
@@ -225,7 +225,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 'Orders',
                                 style: Theme.of(context)
                                     .textTheme
-                                    .caption
+                                    .bodySmall
                                     ?.copyWith(color: AppColors.bodyTextColor),
                               )
                             ],
@@ -258,7 +258,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 '68km',
                                 style: Theme.of(context)
                                     .textTheme
-                                    .button
+                                    .labelLarge
                                     ?.copyWith(fontWeight: FontWeight.bold),
                               ),
                               AppGaps.hGap4,
@@ -266,7 +266,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 'Ride',
                                 style: Theme.of(context)
                                     .textTheme
-                                    .caption
+                                    .bodySmall
                                     ?.copyWith(color: AppColors.bodyTextColor),
                               )
                             ],
@@ -300,7 +300,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 '\$238.00',
                                 style: Theme.of(context)
                                     .textTheme
-                                    .button
+                                    .labelLarge
                                     ?.copyWith(fontWeight: FontWeight.bold),
                               ),
                               AppGaps.hGap4,
@@ -308,7 +308,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 'Earnings',
                                 style: Theme.of(context)
                                     .textTheme
-                                    .caption
+                                    .bodySmall
                                     ?.copyWith(color: AppColors.bodyTextColor),
                               )
                             ],

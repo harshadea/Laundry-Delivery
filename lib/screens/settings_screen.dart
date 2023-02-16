@@ -34,7 +34,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
             children: [
               // Top extra spaces
               AppGaps.hGap15,
-              Text('Preference', style: Theme.of(context).textTheme.headline4),
+              Text('Preference', style: Theme.of(context).textTheme.headlineMedium),
               AppGaps.hGap16,
               /* <---- 'Country' List Tile ----> */
               SettingsListTileWidget(
@@ -58,7 +58,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
               /* <---- Section space ----> */
               AppGaps.hGap32,
               Text('Application setting',
-                  style: Theme.of(context).textTheme.headline4),
+                  style: Theme.of(context).textTheme.headlineMedium),
               AppGaps.hGap16,
               /* <---- 'Notification' List Tile ----> */
               SettingsListTileWidget(
@@ -93,7 +93,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                       _toggleTextNotification = !_toggleTextNotification)),
               /* <---- Section space ----> */
               AppGaps.hGap32,
-              Text('Support', style: Theme.of(context).textTheme.headline4),
+              Text('Support', style: Theme.of(context).textTheme.headlineMedium),
               AppGaps.hGap16,
               /* <---- 'Help center' List Tile ----> */
               SettingsListTileWidget(titleText: 'Help center', onTap: () {}),

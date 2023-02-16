@@ -31,29 +31,29 @@ class SendToBankScreen extends StatelessWidget {
                   Text('Name',
                       style: Theme.of(context)
                           .textTheme
-                          .caption
+                          .bodySmall
                           ?.copyWith(color: Colors.white.withOpacity(0.7))),
                   AppGaps.hGap2,
                   Text('Michel John Doe',
-                      style: Theme.of(context).textTheme.button?.copyWith(
+                      style: Theme.of(context).textTheme.labelLarge?.copyWith(
                           color: Colors.white, fontWeight: FontWeight.w600)),
                   AppGaps.hGap16,
                   Text(
                     '****    ****    ****    2382',
                     style: Theme.of(context)
                         .textTheme
-                        .caption
+                        .bodySmall
                         ?.copyWith(color: Colors.white),
                   ),
                   AppGaps.hGap16,
                   Text('Balance',
                       style: Theme.of(context)
                           .textTheme
-                          .caption
+                          .bodySmall
                           ?.copyWith(color: Colors.white.withOpacity(0.7))),
                   AppGaps.hGap2,
                   Text(r'$2373.00',
-                      style: Theme.of(context).textTheme.button?.copyWith(
+                      style: Theme.of(context).textTheme.labelLarge?.copyWith(
                           color: Colors.white, fontWeight: FontWeight.w500)),
                 ],
               )),
@@ -61,7 +61,7 @@ class SendToBankScreen extends StatelessWidget {
               Text('Bank info',
                   style: Theme.of(context)
                       .textTheme
-                      .headline4
+                      .headlineMedium
                       ?.copyWith(color: AppColors.primaryColor)),
               AppGaps.hGap16,
               /* <---- Account holder name text field ----> */

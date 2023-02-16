@@ -115,7 +115,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 'Terms of service',
                                 style: Theme.of(context)
                                     .textTheme
-                                    .bodyText2
+                                    .bodyMedium
                                     ?.copyWith(color: AppColors.primaryColor),
                               )),
                           const Text(' and '),
@@ -125,7 +125,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                                 'Privacy policy',
                                 style: Theme.of(context)
                                     .textTheme
-                                    .bodyText2
+                                    .bodyMedium
                                     ?.copyWith(color: AppColors.primaryColor),
                               )),
                         ],
@@ -172,7 +172,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   child: Text('Sign In',
                       style: Theme.of(context)
                           .textTheme
-                          .bodyText2
+                          .bodyMedium
                           ?.copyWith(color: AppColors.primaryColor)),
                 )
               ],

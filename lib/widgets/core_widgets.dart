@@ -59,9 +59,8 @@ class CustomStretchedTextButtonWidget extends StatelessWidget {
           child: TextButton(
               onPressed: onTap,
               style: TextButton.styleFrom(
-                  elevation: onTap == null ? 0 : 10,
+                  foregroundColor: Colors.white, elevation: onTap == null ? 0 : 10,
                   shadowColor: AppColors.primaryColor.withOpacity(0.25),
-                  primary: Colors.white,
                   backgroundColor: onTap == null
                       ? AppColors.primaryColor.withOpacity(0.15)
                       : AppColors.primaryColor,
@@ -98,9 +97,8 @@ class CustomStretchedButtonWidget extends StatelessWidget {
           child: TextButton(
               onPressed: onTap,
               style: TextButton.styleFrom(
-                  elevation: 10,
+                  foregroundColor: Colors.white, elevation: 10,
                   shadowColor: AppColors.primaryColor.withOpacity(0.25),
-                  primary: Colors.white,
                   backgroundColor: onTap == null
                       ? AppColors.bodyTextColor
                       : AppColors.primaryColor,
@@ -141,7 +139,7 @@ class CustomTabToggleButtonWidget extends StatelessWidget {
             text,
             style: Theme.of(context)
                 .textTheme
-                .button
+                .labelLarge
                 ?.copyWith(color: isSelected ? Colors.white : null),
           ),
         ),
@@ -419,9 +417,8 @@ class CustomLargeTextButtonWidget extends StatelessWidget {
     return TextButton(
         onPressed: onTap,
         style: TextButton.styleFrom(
-            fixedSize:
+            foregroundColor: textColor, fixedSize:
                 isSmallScreen ? const Size(140, 55) : const Size(175, 65),
-            primary: textColor,
             visualDensity: const VisualDensity(
                 horizontal: VisualDensity.minimumDensity,
                 vertical: VisualDensity.minimumDensity),
@@ -662,11 +659,11 @@ class HighlightAndDetailTextWidget extends StatelessWidget {
       children: [
         Text(slogan,
             textAlign: TextAlign.center,
-            style: Theme.of(context).textTheme.headline3),
+            style: Theme.of(context).textTheme.displaySmall),
         isSpaceShorter ? AppGaps.hGap8 : AppGaps.hGap16,
         Text(subtitle,
             textAlign: TextAlign.center,
-            style: Theme.of(context).textTheme.bodyText2?.copyWith(
+            style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                 color: AppColors.bodyTextColor, overflow: TextOverflow.clip)),
       ],
     );

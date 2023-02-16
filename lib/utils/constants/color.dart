@@ -49,27 +49,27 @@ Color lightColor = Colors.white;
 class CustomColors {
   static Color primaryTextColor = Colors.white;
   static Color dividerColor = Colors.white54;
-  static Color pageBackgroundColor = Color(0xFF2D2F41);
-  static Color menuBackgroundColor = Color(0xFF242634);
+  static Color pageBackgroundColor = const Color(0xFF2D2F41);
+  static Color menuBackgroundColor = const Color(0xFF242634);
 
-  static Color clockBG = Color(0xFF444974);
-  static Color clockOutline = Color(0xFFEAECFF);
+  static Color clockBG = const Color(0xFF444974);
+  static Color clockOutline = const Color(0xFFEAECFF);
   static Color? secHandColor = Colors.orange[300];
-  static Color minHandStatColor = Color(0xFF748EF6);
-  static Color minHandEndColor = Color(0xFF77DDFF);
-  static Color hourHandStatColor = Color(0xFFC279FB);
-  static Color hourHandEndColor = Color(0xFFEA74AB);
+  static Color minHandStatColor = const Color(0xFF748EF6);
+  static Color minHandEndColor = const Color(0xFF77DDFF);
+  static Color hourHandStatColor = const Color(0xFFC279FB);
+  static Color hourHandEndColor = const Color(0xFFEA74AB);
 }
 
 class GradientColors {
   final List<Color> colors;
   GradientColors(this.colors);
 
-  static List<Color> sky = [Color(0xFF6448FE), Color(0xFF5FC6FF)];
-  static List<Color> sunset = [Color(0xFFFE6197), Color(0xFFFFB463)];
-  static List<Color> sea = [Color(0xFF61A3FE), Color(0xFF63FFD5)];
-  static List<Color> mango = [Color(0xFFFFA738), Color(0xFFFFE130)];
-  static List<Color> fire = [Color(0xFFFF5DCD), Color(0xFFFF8484)];
+  static List<Color> sky = [const Color(0xFF6448FE), const Color(0xFF5FC6FF)];
+  static List<Color> sunset = [const Color(0xFFFE6197), const Color(0xFFFFB463)];
+  static List<Color> sea = [const Color(0xFF61A3FE), const Color(0xFF63FFD5)];
+  static List<Color> mango = [const Color(0xFFFFA738), const Color(0xFFFFE130)];
+  static List<Color> fire = [const Color(0xFFFF5DCD), const Color(0xFFFF8484)];
 }
 
 class GradientTemplate {
@@ -96,7 +96,7 @@ const SecondaryColor = Color(0xFF979797);
 const TextColor = Color(0xFF757575);
 const AnimationDuration = Duration(milliseconds: 200);
 
-final headingStyle = TextStyle(
+const headingStyle = TextStyle(
   fontSize: 30,
   fontWeight: FontWeight.bold,
   color: colors.black,
@@ -117,8 +117,8 @@ const String PhoneNumberNullError = "Please Enter your name";
 const String AddressNullError = "Please Enter your name";
 
 final otpInputDecoration = InputDecoration(
-  contentPadding: EdgeInsets.symmetric(vertical: 15),
-  enabledBorder: OutlineInputBorder(),
+  contentPadding: const EdgeInsets.symmetric(vertical: 15),
+  enabledBorder: const OutlineInputBorder(),
   focusedBorder: outlineInputBorder(),
   border: outlineInputBorder(),
 );
@@ -126,7 +126,7 @@ final otpInputDecoration = InputDecoration(
 OutlineInputBorder outlineInputBorder() {
   return OutlineInputBorder(
     borderRadius: BorderRadius.circular(15),
-    borderSide: BorderSide(color: TextColor),
+    borderSide: const BorderSide(color: TextColor),
   );
 }
 

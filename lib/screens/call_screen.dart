@@ -57,7 +57,7 @@ class _CallScreenState extends State<CallScreen> {
                               'Calling',
                               style: Theme.of(context)
                                   .textTheme
-                                  .caption
+                                  .bodySmall
                                   ?.copyWith(
                                       fontWeight: FontWeight.w500,
                                       color: AppColors.bodyTextColor),
@@ -67,7 +67,7 @@ class _CallScreenState extends State<CallScreen> {
                     /* <---- Caller name ----> */
                     Text(
                       'John Smith Paul',
-                      style: Theme.of(context).textTheme.headline2,
+                      style: Theme.of(context).textTheme.displayMedium,
                     ),
                     AppGaps.hGap24,
                     /* <---- Caller call time duration ----> */

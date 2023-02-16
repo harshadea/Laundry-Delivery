@@ -45,7 +45,7 @@ class _PasswordRecoverySelectScreenState
                       AppGaps.hGap20,
                       Text('Reset your password',
                           textAlign: TextAlign.center,
-                          style: Theme.of(context).textTheme.headline3),
+                          style: Theme.of(context).textTheme.displaySmall),
                       AppGaps.hGap16,
                       Text(
                           'Verification code was sent to your number. '
@@ -53,7 +53,7 @@ class _PasswordRecoverySelectScreenState
                           textAlign: TextAlign.center,
                           style: Theme.of(context)
                               .textTheme
-                              .bodyText2
+                              .bodyMedium
                               ?.copyWith(
                                   color: AppColors.bodyTextColor,
                                   overflow: TextOverflow.clip)),

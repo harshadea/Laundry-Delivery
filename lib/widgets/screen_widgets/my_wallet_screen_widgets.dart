@@ -71,7 +71,7 @@ class RecentTransactionWidget extends StatelessWidget {
                 recentTransaction.title,
                 style: Theme.of(context)
                     .textTheme
-                    .caption
+                    .bodySmall
                     ?.copyWith(fontWeight: FontWeight.w500),
               ),
               AppGaps.hGap8,
@@ -94,7 +94,7 @@ class RecentTransactionWidget extends StatelessWidget {
                 _getAmountText(),
                 style: Theme.of(context)
                     .textTheme
-                    .caption
+                    .bodySmall
                     ?.copyWith(fontWeight: FontWeight.w500),
               ),
               AppGaps.hGap8,

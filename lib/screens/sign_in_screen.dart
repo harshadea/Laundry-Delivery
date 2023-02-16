@@ -106,7 +106,7 @@ class _SignInScreenState extends State<SignInScreen> {
                       child: Text('Forgot password?',
                           style: Theme.of(context)
                               .textTheme
-                              .bodyText2
+                              .bodyMedium
                               ?.copyWith(color: AppColors.primaryColor)),
                       onTap: () {
                         // Goto verification method selection screen.
@@ -128,7 +128,7 @@ class _SignInScreenState extends State<SignInScreen> {
                 AppGaps.hGap48,
                 Center(
                     child: Text('Or Sign in with social account',
-                        style: Theme.of(context).textTheme.bodyText2?.copyWith(
+                        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                               color: AppColors.bodyTextColor,
                             ))),
                 AppGaps.hGap48,
@@ -186,7 +186,7 @@ class _SignInScreenState extends State<SignInScreen> {
               child: Text('Sign up',
                   style: Theme.of(context)
                       .textTheme
-                      .bodyText2
+                      .bodyMedium
                       ?.copyWith(color: AppColors.primaryColor)),
             )
           ],

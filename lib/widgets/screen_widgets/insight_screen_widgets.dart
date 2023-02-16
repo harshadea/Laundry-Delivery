@@ -76,7 +76,7 @@ class InsightLineGraphWidgetState extends State<InsightLineGraphWidget> {
                     touchSpot.y.toString(),
                     Theme.of(context)
                             .textTheme
-                            .caption
+                            .bodySmall
                             ?.copyWith(color: Colors.white) ??
                         const TextStyle(color: Colors.white)))
                 .toList();

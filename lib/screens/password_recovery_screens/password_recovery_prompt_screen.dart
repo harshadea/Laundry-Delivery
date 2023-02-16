@@ -34,14 +34,14 @@ class PasswordRecoveryPromptScreen extends StatelessWidget {
                       AppGaps.hGap20,
                       Text('Password recovery',
                           textAlign: TextAlign.center,
-                          style: Theme.of(context).textTheme.headline3),
+                          style: Theme.of(context).textTheme.displaySmall),
                       AppGaps.hGap16,
                       Text(
                           'Please confirm your country code and enter phone number',
                           textAlign: TextAlign.center,
                           style: Theme.of(context)
                               .textTheme
-                              .bodyText2
+                              .bodyMedium
                               ?.copyWith(
                                   color: AppColors.bodyTextColor,
                                   overflow: TextOverflow.clip)),

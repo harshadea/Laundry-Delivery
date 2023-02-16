@@ -3,7 +3,6 @@ import 'package:ecomikdeliveryapp/screens/chat_deliveryman_screen.dart';
 import 'package:ecomikdeliveryapp/screens/congratulation_screen.dart';
 import 'package:ecomikdeliveryapp/screens/delivered_success_screen.dart';
 import 'package:ecomikdeliveryapp/screens/home_screen.dart';
-import 'package:ecomikdeliveryapp/screens/intro_screen.dart';
 import 'package:ecomikdeliveryapp/screens/langauge_screen.dart';
 import 'package:ecomikdeliveryapp/screens/my_wallet_screen.dart';
 import 'package:ecomikdeliveryapp/screens/notifications_screen.dart';

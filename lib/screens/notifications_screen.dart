@@ -44,7 +44,7 @@ class NotificationsScreen extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(
                             horizontal: AppGaps.screenPaddingValue),
                         child: Text(notificationDateGroup.dateHumanReadableText,
-                            style: Theme.of(context).textTheme.button),
+                            style: Theme.of(context).textTheme.labelLarge),
                       ),
                       AppGaps.hGap24,
                       /* <---- Notification list under a date 

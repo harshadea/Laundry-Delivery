@@ -45,11 +45,11 @@ class DeliveredSuccessDetailWidget extends StatelessWidget {
                 detailTitle,
                 style: Theme.of(context)
                     .textTheme
-                    .caption
+                    .bodySmall
                     ?.copyWith(color: AppColors.bodyTextColor),
               ),
               AppGaps.hGap8,
-              Text(detailText, style: Theme.of(context).textTheme.button),
+              Text(detailText, style: Theme.of(context).textTheme.labelLarge),
               AppGaps.hGap8,
               CustomTightTextButtonWidget(
                 onTap: onTextButtonTap,

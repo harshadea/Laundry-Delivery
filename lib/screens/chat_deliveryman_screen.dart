@@ -84,7 +84,7 @@ class ChatDeliverymanScreen extends StatelessWidget {
                     children: [
                       Text(
                         'George Anderson',
-                        style: Theme.of(context).textTheme.button,
+                        style: Theme.of(context).textTheme.labelLarge,
                       ),
                     ],
                   ),

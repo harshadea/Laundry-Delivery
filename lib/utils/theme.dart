@@ -13,31 +13,31 @@ class AppThemeData {
       scaffoldBackgroundColor: AppColors.shadeColor2,
       // Setting all default textTheme based on design
       textTheme: const TextTheme(
-        headline1: TextStyle(
+        displayLarge: TextStyle(
             fontSize: 36,
             color: AppColors.darkColor,
             fontWeight: FontWeight.bold),
-        headline2: TextStyle(
+        displayMedium: TextStyle(
             fontSize: 26,
             color: AppColors.darkColor,
             fontWeight: FontWeight.bold),
-        headline3: TextStyle(
+        displaySmall: TextStyle(
             fontSize: 24,
             color: AppColors.darkColor,
             fontWeight: FontWeight.bold),
-        headline4: TextStyle(
+        headlineMedium: TextStyle(
             fontSize: 20,
             color: AppColors.darkColor,
             fontWeight: FontWeight.bold),
-        button: TextStyle(
+        labelLarge: TextStyle(
             fontSize: 18,
             color: AppColors.darkColor,
             fontWeight: FontWeight.w600),
-        bodyText2: TextStyle(
+        bodyMedium: TextStyle(
             fontSize: 16,
             color: AppColors.darkColor,
             fontWeight: FontWeight.w400),
-        caption: TextStyle(
+        bodySmall: TextStyle(
             fontSize: 14,
             color: AppColors.darkColor,
             fontWeight: FontWeight.w400),

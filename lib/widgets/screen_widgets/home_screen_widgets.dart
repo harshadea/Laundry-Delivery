@@ -56,7 +56,7 @@ class DrawerList extends StatelessWidget {
                         'Samantha Smith',
                         style: Theme.of(context)
                             .textTheme
-                            .button
+                            .labelLarge
                             ?.copyWith(color: Colors.white),
                       ),
                       AppGaps.hGap10,
@@ -225,7 +225,7 @@ class DeliveryProductListTile extends StatelessWidget {
               Text(name, style: const TextStyle(fontWeight: FontWeight.w500)),
               AppGaps.hGap8,
               Text('$itemCount items',
-                  style: Theme.of(context).textTheme.caption?.copyWith(
+                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
                         color: AppColors.bodyTextColor,
                       )),
             ],

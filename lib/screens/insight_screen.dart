@@ -13,7 +13,7 @@ class InsightScreen extends StatelessWidget {
     /// Set graph label text style
     final graphLabelTextStyle = Theme.of(context)
         .textTheme
-        .caption
+        .bodySmall
         ?.copyWith(color: AppColors.bodyTextColor);
     return Scaffold(
       /* <-------- Appbar --------> */
@@ -62,7 +62,7 @@ class InsightScreen extends StatelessWidget {
                               '45',
                               style: Theme.of(context)
                                   .textTheme
-                                  .button
+                                  .labelLarge
                                   ?.copyWith(fontWeight: FontWeight.bold),
                             ),
                             AppGaps.hGap4,
@@ -70,7 +70,7 @@ class InsightScreen extends StatelessWidget {
                               'Orders',
                               style: Theme.of(context)
                                   .textTheme
-                                  .caption
+                                  .bodySmall
                                   ?.copyWith(color: AppColors.bodyTextColor),
                             )
                           ],
@@ -103,7 +103,7 @@ class InsightScreen extends StatelessWidget {
                               '68km',
                               style: Theme.of(context)
                                   .textTheme
-                                  .button
+                                  .labelLarge
                                   ?.copyWith(fontWeight: FontWeight.bold),
                             ),
                             AppGaps.hGap4,
@@ -111,7 +111,7 @@ class InsightScreen extends StatelessWidget {
                               'Ride',
                               style: Theme.of(context)
                                   .textTheme
-                                  .caption
+                                  .bodySmall
                                   ?.copyWith(color: AppColors.bodyTextColor),
                             )
                           ],
@@ -145,7 +145,7 @@ class InsightScreen extends StatelessWidget {
                               '\$238.00',
                               style: Theme.of(context)
                                   .textTheme
-                                  .button
+                                  .labelLarge
                                   ?.copyWith(fontWeight: FontWeight.bold),
                             ),
                             AppGaps.hGap4,
@@ -153,7 +153,7 @@ class InsightScreen extends StatelessWidget {
                               'Earnings',
                               style: Theme.of(context)
                                   .textTheme
-                                  .caption
+                                  .bodySmall
                                   ?.copyWith(color: AppColors.bodyTextColor),
                             )
                           ],
@@ -170,7 +170,7 @@ class InsightScreen extends StatelessWidget {
               children: [
                 Text(
                   'Earnings',
-                  style: Theme.of(context).textTheme.headline4,
+                  style: Theme.of(context).textTheme.headlineMedium,
                 ),
                 PopupMenuButton<int>(
                     padding: const EdgeInsets.only(right: 5),
@@ -182,7 +182,7 @@ class InsightScreen extends StatelessWidget {
                       children: [
                         Text(
                           'Today',
-                          style: Theme.of(context).textTheme.caption?.copyWith(
+                          style: Theme.of(context).textTheme.bodySmall?.copyWith(
                               fontWeight: FontWeight.w500,
                               color: AppColors.primaryColor),
                         ),
@@ -311,7 +311,7 @@ class InsightScreen extends StatelessWidget {
               children: [
                 Text(
                   'Orders',
-                  style: Theme.of(context).textTheme.headline4,
+                  style: Theme.of(context).textTheme.headlineMedium,
                 ),
                 PopupMenuButton<int>(
                     padding: const EdgeInsets.only(right: 5),
@@ -323,7 +323,7 @@ class InsightScreen extends StatelessWidget {
                       children: [
                         Text(
                           'Today',
-                          style: Theme.of(context).textTheme.caption?.copyWith(
+                          style: Theme.of(context).textTheme.bodySmall?.copyWith(
                               fontWeight: FontWeight.w500,
                               color: AppColors.primaryColor),
                         ),

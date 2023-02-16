@@ -287,7 +287,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     children: [
                       Text(
                         'Beats Headphone',
-                        style: Theme.of(context).textTheme.button,
+                        style: Theme.of(context).textTheme.labelLarge,
                       ),
                       AppGaps.hGap8,
                       const Text(
@@ -329,7 +329,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   Expanded(
                       child: Text(
                     'John Smith Doe',
-                    style: Theme.of(context).textTheme.button,
+                    style: Theme.of(context).textTheme.labelLarge,
                   )),
                   _getCustomerMessageCallButtons()
                 ],
@@ -387,7 +387,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   Expanded(
                       child: Text(
                     'Jessica Herry',
-                    style: Theme.of(context).textTheme.button,
+                    style: Theme.of(context).textTheme.labelLarge,
                   ))
                 ],
               ),
@@ -417,7 +417,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 padding: const EdgeInsets.only(left: 24),
                 child: Text(
                   'Order info',
-                  style: Theme.of(context).textTheme.headline4,
+                  style: Theme.of(context).textTheme.headlineMedium,
                 ),
               ),
             ),

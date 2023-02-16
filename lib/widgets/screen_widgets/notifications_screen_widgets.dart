@@ -54,7 +54,7 @@ class SingleNotificationWidget extends StatelessWidget {
               children: [
                 RichText(
                   text: TextSpan(
-                      style: Theme.of(context).textTheme.bodyText2?.copyWith(
+                      style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                           // color: notification.isRead ? AppColors.bodyTextColor : AppColors.darkColor,
                           color: AppColors.bodyTextColor,
                           height: 1.5),
@@ -73,12 +73,12 @@ class SingleNotificationWidget extends StatelessWidget {
                     Text(notification.name,
                         style: Theme.of(context)
                             .textTheme
-                            .caption
+                            .bodySmall
                             ?.copyWith(fontWeight: FontWeight.w500)),
                     Text(notification.timeText,
                         style: Theme.of(context)
                             .textTheme
-                            .caption
+                            .bodySmall
                             ?.copyWith(color: AppColors.bodyTextColor)),
                   ],
                 ),

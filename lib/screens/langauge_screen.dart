@@ -34,7 +34,7 @@ class _LanguageScreenState extends State<LanguageScreen> {
               Text('Select language',
                   style: Theme.of(context)
                       .textTheme
-                      .headline4
+                      .headlineMedium
                       ?.copyWith(color: AppColors.primaryColor)),
               AppGaps.hGap16,
               /* <---- English language choice list tile ----> */
